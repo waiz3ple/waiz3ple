@@ -128,7 +128,7 @@
 </div>
 
 <div align="center">
-  <p><em>“Code is art. Accessibility is heart.”</em></p>
+  <p><em>“Code is art. Accessibility is heart. User experience is the map!”</em></p>
   <img src="https://img.shields.io/badge/Enjoy_the_show!-FF6F61?style=for-the-badge&logo=star&logoColor=white" alt="Enjoy"/>
 </div>
 
