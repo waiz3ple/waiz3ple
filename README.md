@@ -74,7 +74,8 @@
 ## Projects
 
 <div align="center">
-  <h4><a href="https://www.npmjs.com/package/fractionability">Fractionability</a></h4>
+  <h4><a href="https://www.npmjs.com/package/fractionability" target=
+        "_blank">Fractionability</a></h4>
   <p>A TypeScript library for rendering accessible fractions with MathML, optimized for screen readers.</p>
   <a href="https://www.npmjs.com/package/fractionability"><img src="https://img.shields.io/npm/v/fractionability?color=FF6F61&style=flat-square" alt="npm version"/></a>
 </div>
