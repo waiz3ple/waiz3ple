@@ -74,19 +74,19 @@
 ## 🎨 Showcase Spotlight  
 
 <div align="center">
-  <h4><img src="https://img.shields.io/badge/Fractionability-FF4785?style=for-the-badge&logo=npm&logoColor=white" alt="Fractionability"/></h4>
+  <h4><a href="https://www.npmjs.com/package/fractionability"><img src="https://img.shields.io/badge/Fractionability-FF4785?style=for-the-badge&logo=npm&logoColor=white" alt="Fractionability"/></a></h4>
   <p>A TypeScript-powered library for rendering accessible fractions with MathML—screen-reader-ready and available on npm!</p>
   <a href="https://www.npmjs.com/package/fractionability"><img src="https://img.shields.io/npm/v/fractionability?color=FF4785&style=flat-square" alt="npm version"/></a>
 </div>
 
 <div align="center">
-  <h4><img src="https://img.shields.io/badge/Fruitone_Themes-FF9F1C?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Fruitone"/></h4>
+  <h4><a href="https://marketplace.visualstudio.com/items?itemName=wasiu.fruitone-themes"><img src="https://img.shields.io/badge/Fruitone_Themes-FF9F1C?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Fruitone"/></a></h4>
   <p>12 juicy, dark VS Code themes inspired by fruit colors—coding never looked so tasty!</p>
   <a href="https://marketplace.visualstudio.com/items?itemName=wasiu.fruitone-themes"><img src="https://img.shields.io/visual-studio-marketplace/v/wasiu.fruitone-themes?color=FF9F1C&style=flat-square" alt="VS Code Marketplace"/></a>
 </div>
 
 <div align="center">
-  <h4><img src="https://img.shields.io/badge/Wall_Clock-88CE02?style=for-the-badge&logo=github&logoColor=white" alt="Analog Clock"/></h4>
+  <h4><a href="https://github.com/waiz3ple/wall-clock"><img src="https://img.shields.io/badge/Wall_Clock-88CE02?style=for-the-badge&logo=github&logoColor=white" alt="Analog Clock"/></a></h4>
   <p>A sleek analog clock blending Adobe Illustrator design with OOP JavaScript—timeless elegance in code.</p>
   <a href="https://github.com/waiz3ple/wall-clock"><img src="https://img.shields.io/github/stars/waiz3ple/wall-clock?style=social" alt="GitHub Stars"/></a>
 </div>
