@@ -107,15 +107,7 @@
 ## Current Focus
 - Developing a CLI tool to streamline project scaffolding  
 - Contributing to open-source accessibility initiatives  
-- Exploring GSAP for advanced web animations  
-
----
-
-## Education
-<div align="center">
-  <p><strong>M.Sc. in Industrial Chemistry</strong><br>University of Ilorin, Nigeria • 2013–2015</p>
-  <p><strong>B.Tech. in Pure & Applied Chemistry</strong><br>Ladoke Akintola University of Technology, Nigeria • 2005–2010</p>
-</div>
+- Exploring GSAP for advanced web animations
 
 ---
 
