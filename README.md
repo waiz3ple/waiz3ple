@@ -4,7 +4,7 @@
 
 <div align="center">
   <h3>Senior Frontend Developer</h3>
-  <p>With over 8 years of experience, I specialize in crafting accessible, high-performance, and visually precise web interfaces using React, TypeScript, and modern tools. I’m dedicated to inclusive design, open-source innovation, and delivering exceptional user experiences.</p>
+  <p>I specialize in crafting accessible, high-performance, and visually precise web interfaces using React, TypeScript, and modern tools. I’m dedicated to inclusive design, open-source innovation, and delivering exceptional user experiences.</p>
 </div>
 
 <div align="center">
