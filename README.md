@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <h3>Senior Frontend Developer</h3>
+  <h3>Frontend Developer</h3>
   <p>I specialize in crafting accessible, high-performance, and visually precise web interfaces using React, TypeScript, and modern tools. I’m dedicated to inclusive design, open-source innovation, and delivering exceptional user experiences.</p>
 </div>
 
