@@ -91,10 +91,10 @@
 
 ### 🏛️ Bidsday Auction Platform
 <div align="center">
-  <p>Modern auction platform with real-time bidding (Q4 2024 Launch)</p>
+  <p>Modern auction platform with real-time bidding </p>
   <p>
     <img src="https://img.shields.io/badge/Status-In_Development-FF6F61?style=flat-square" alt="In Development"/>
-    <img src="https://img.shields.io/badge/Progress-75%25-88CE02?style=flat-square" alt="Progress"/>
+    <img src="https://img.shields.io/badge/Progress-65%25-88CE02?style=flat-square" alt="Progress"/>
   </p>
   <p><em>Technologies: Next.js, TypeScript, Socket.io, WCAG 2.1</em></p>
   <p>Key Features: Real-time updates, SSR optimized, fully accessible components</p>
