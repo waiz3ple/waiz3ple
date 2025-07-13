@@ -123,27 +123,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=waiz3ple&theme=react&hide_border=true&background=1F2A44&stroke=FF6F61&ring=88CE02&fire=FF9F1C&currStreakLabel=FFFFFF" alt="GitHub streak"/>
 </div>
 
-## 🏆 Professional Highlights
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="33%">
-        <h4>🏦 JPMorgan Chase</h4>
-        <p><strong>Senior Frontend Developer</strong></p>
-        <p>2024 - Present</p>
-        <p><em>Improved accessibility scores by 65%</em></p>
-      </td>
-      <td align="center" width="33%">
-        <h4>🚗 TripBuddy</h4>
-        <p><strong>Lead Frontend Developer</strong></p>
-        <p>2020 - 2023</p>
-        <p><em>Scaled platform to 100K+ users</em></p>
-      </td>
-    </tr>
-  </table>
-</div>
-
 ## 💬 Let's Connect
 
 <div align="center">
