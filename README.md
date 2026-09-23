@@ -1,147 +1,189 @@
+<!--
+  ┌──────────────────────────── Design tokens ────────────────────────────┐
+  │ coral    #FF6F61  primary accent on dark surfaces                      │
+  │ coral-d  #D8483B  primary accent on light surfaces (passes AA)         │
+  │ amber    #FF9F1C  secondary accent                                     │
+  │ lime     #88CE02  highlight on dark surfaces                           │
+  │ lime-d   #4F7A00  highlight on light surfaces (passes AA)              │
+  │ navy     #1F2A44  surface / label background                           │
+  │ ink      #0F1626  deep surface for gradients                           │
+  └────────────────────────────────────────────────────────────────────────┘
+  Rules: every badge uses labelColor=1F2A44; every card ships a dark + light
+  variant via <picture>; no motion (animated SVGs ignore reduced-motion);
+  no emoji in headings (screen readers announce them).
+-->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0F1626,55:1F2A44,100:FF6F61&height=260&section=header&text=Wasiu%20Ramoni&fontSize=64&fontColor=FFFFFF&fontAlignY=36&desc=Accessible%20interfaces.%20Scalable%20design%20systems.%20Fast%20by%20default.&descSize=18&descAlignY=58">
+  <img alt="Wasiu Ramoni. Accessible interfaces. Scalable design systems. Fast by default." src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6F61,60:FF9F1C,100:FFC56B&height=260&section=header&text=Wasiu%20Ramoni&fontSize=64&fontColor=FFFFFF&fontAlignY=36&desc=Accessible%20interfaces.%20Scalable%20design%20systems.%20Fast%20by%20default.&descSize=18&descAlignY=58">
+</picture>
+
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=FF6F61&center=true&vCenter=true&width=600&lines=Hello%2C+I'm+Wasiu+Ramoni+%F0%9F%91%8B" alt="Typing animation showing Wasiu's introduction"/>
+
+<a href="https://ramoni.pro"><img src="https://img.shields.io/badge/Portfolio-ramoni.pro-FF6F61?style=for-the-badge&labelColor=1F2A44" alt="Portfolio: ramoni.pro"></a>
+<a href="https://linkedin.com/in/ramoni"><img src="https://img.shields.io/badge/LinkedIn-in%2Framoni-FF9F1C?style=for-the-badge&labelColor=1F2A44" alt="LinkedIn: in/ramoni"></a>
+<a href="mailto:wasiu@ramoni.pro"><img src="https://img.shields.io/badge/Email-wasiu%40ramoni.pro-88CE02?style=for-the-badge&labelColor=1F2A44" alt="Email: wasiu@ramoni.pro"></a>
+
+**Frontend Engineer** &nbsp;·&nbsp; Hartford, CT &nbsp;·&nbsp; *Code with purpose, design with empathy.*
+
 </div>
 
 <br>
 
-## 🚀 About Me
-<div align="center">
-  <p style="font-size: 18px; max-width: 600px; margin: 0 auto;">
-    I'm a passionate <strong>Frontend Developer</strong> specializing in crafting accessible, high-performance web interfaces. 
-    I believe in creating digital experiences that are not only visually stunning but also inclusive for everyone.
-  </p>
-</div>
+## Hello, I'm Wasiu
+
+I build interfaces that work for **everyone**: keyboard users, screen reader users, people on slow phones, and the engineers who maintain the code after me. My work sits where three disciplines meet: **accessibility**, **design systems**, and **web performance**. I write almost everything in **TypeScript**.
+
+```ts
+type Principle = `${string} by default`;
+
+export const wasiu = {
+  role: "Frontend Engineer",
+  based: "Hartford, CT",
+  craft: ["Accessibility", "Design Systems", "Web Performance"],
+  principles: [
+    "Accessible by default",
+    "Consistent by default",
+    "Fast by default",
+  ] satisfies Principle[],
+  learning: ["Python", "PyTorch", "TensorFlow"],
+} as const;
+```
+
+## How I build
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <img src="https://img.shields.io/badge/01-Accessible_by_default-FF6F61?style=flat-square&labelColor=1F2A44" alt="Principle 01: Accessible by default"><br><br>
+      Accessibility is a requirement, not a phase at the end. I build to <strong>WCAG 2.2 AA</strong> using semantic HTML first and ARIA only where it is needed. Every flow gets tested with a keyboard and a screen reader, not only with automated audits.
+    </td>
+    <td width="33%" valign="top">
+      <img src="https://img.shields.io/badge/02-Systems_over_screens-FF9F1C?style=flat-square&labelColor=1F2A44" alt="Principle 02: Systems over screens"><br><br>
+      Tokens, typed component APIs, and documented patterns in <strong>Storybook</strong> make the correct choice the easiest one. When the system is good, a team can ship quickly without losing consistency.
+    </td>
+    <td width="33%" valign="top">
+      <img src="https://img.shields.io/badge/03-Fast_is_a_feature-88CE02?style=flat-square&labelColor=1F2A44" alt="Principle 03: Fast is a feature"><br><br>
+      Performance is part of the user experience. I use code splitting and dependency audits, measure the results, and make rendering cheaper. I also treat the bundle size as a budget with a limit.
+    </td>
+  </tr>
+</table>
+
+## Impact
+
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/UI_performance-%2B40%25-FF6F61?style=for-the-badge&labelColor=1F2A44" alt="UI performance improved by 40 percent"><br>
+      <sub>Rendering and data-fetching optimizations at <strong>JPMorgan</strong></sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/Bundle_size-%E2%88%9235%25-FF9F1C?style=for-the-badge&labelColor=1F2A44" alt="Bundle size reduced by 35 percent"><br>
+      <sub>Code splitting, tree-shaking, and dependency audits</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/WCAG-AA-88CE02?style=for-the-badge&labelColor=1F2A44" alt="WCAG AA compliance"><br>
+      <sub>Consistently shipped, verified manually and automatically</sub>
+    </td>
+  </tr>
+</table>
+
+## Open source
+
+<table>
+  <tr>
+    <td valign="top">
+
+### [Fractionability](https://github.com/waiz3ple/fractionability)
+
+A TypeScript library for rendering **accessible fractions with MathML**, so learners using assistive technology hear math correctly instead of a sequence of symbols. It is used across **150+ educational websites**.
+
+```bash
+npm install fractionability
+```
+
+<a href="https://www.npmjs.com/package/fractionability"><img src="https://img.shields.io/npm/v/fractionability?style=flat-square&color=FF6F61&labelColor=1F2A44&label=npm" alt="npm version"></a>
+<a href="https://www.npmjs.com/package/fractionability"><img src="https://img.shields.io/npm/dm/fractionability?style=flat-square&color=FF9F1C&labelColor=1F2A44" alt="npm monthly downloads"></a>
+<a href="https://bundlephobia.com/package/fractionability"><img src="https://img.shields.io/bundlephobia/minzip/fractionability?style=flat-square&color=88CE02&labelColor=1F2A44&label=min%2Bgzip" alt="Minified and gzipped bundle size"></a>
+<a href="https://github.com/waiz3ple/fractionability"><img src="https://img.shields.io/github/stars/waiz3ple/fractionability?style=flat-square&color=FF6F61&labelColor=1F2A44" alt="GitHub stars"></a>
+<a href="https://github.com/waiz3ple/fractionability/blob/main/LICENSE"><img src="https://img.shields.io/github/license/waiz3ple/fractionability?style=flat-square&color=FF9F1C&labelColor=1F2A44" alt="License"></a>
+
+  </td>
+  </tr>
+</table>
+
+## Toolkit
+
+<table>
+  <tr>
+    <td width="170"><strong>Language &amp; UI</strong></td>
+    <td><img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,html,css&perline=10" alt="TypeScript, JavaScript, React, Next.js, HTML, CSS"></td>
+  </tr>
+  <tr>
+    <td><strong>State &amp; data</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=redux" alt="Redux">&nbsp;
+      <img src="https://img.shields.io/badge/Redux_Toolkit-1F2A44?style=flat-square&logo=redux&logoColor=white" alt="Redux Toolkit">
+      <img src="https://img.shields.io/badge/TanStack_Query-1F2A44?style=flat-square&logo=reactquery&logoColor=FF4154" alt="TanStack Query">
+      <img src="https://img.shields.io/badge/React_Hook_Form-1F2A44?style=flat-square&logo=reacthookform&logoColor=EC5990" alt="React Hook Form">
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Styling &amp; motion</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=tailwind,sass,bootstrap" alt="Tailwind CSS, Sass, Bootstrap">&nbsp;
+      <img src="https://img.shields.io/badge/GSAP-1F2A44?style=flat-square&logo=greensock&logoColor=88CE02" alt="GSAP">
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Quality &amp; delivery</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=jest,git,github,jenkins" alt="Jest, Git, GitHub, Jenkins">&nbsp;
+      <img src="https://img.shields.io/badge/Storybook-1F2A44?style=flat-square&logo=storybook&logoColor=FF4785" alt="Storybook">
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Design</strong></td>
+    <td><img src="https://skillicons.dev/icons?i=figma,ps,ai" alt="Figma, Photoshop, Illustrator"></td>
+  </tr>
+  <tr>
+    <td><strong>Accessibility</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/WCAG_2.2_AA-1F2A44?style=flat-square&logo=w3c&logoColor=white" alt="WCAG 2.2 AA">
+      <img src="https://img.shields.io/badge/WAI--ARIA-1F2A44?style=flat-square" alt="WAI-ARIA">
+      <img src="https://img.shields.io/badge/ADA_%2F_Section_508-1F2A44?style=flat-square" alt="ADA and Section 508">
+      <img src="https://img.shields.io/badge/Screen_reader_testing-1F2A44?style=flat-square" alt="Screen reader testing">
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Currently learning</strong></td>
+    <td><img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" alt="Python, PyTorch, TensorFlow"></td>
+  </tr>
+</table>
+
+## Activity
 
 <div align="center">
-  <p>📍 <strong>Hartford, CT</strong></p>
-  <p>💡 <em>"Code with purpose, design with empathy"</em></p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=waiz3ple&hide_border=true&border_radius=12&background=1F2A44&stroke=FF6F61&ring=88CE02&fire=FF9F1C&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF9F1C&sideLabels=E6EDF3&dates=C9D1D9">
+  <img alt="Wasiu's GitHub contribution streak" src="https://streak-stats.demolab.com/?user=waiz3ple&hide_border=true&border_radius=12&background=FFF7F5&stroke=D8483B&ring=4F7A00&fire=D8483B&currStreakNum=1F2A44&sideNums=1F2A44&currStreakLabel=D8483B&sideLabels=1F2A44&dates=57606A">
+</picture>
+
 </div>
+
+## Let's build something inclusive
+
+I'm open to work on accessible products, design systems, and frontend architecture. If your team wants an interface that is fast, consistent, and usable by everyone, let's talk.
 
 <div align="center">
-  <a href="https://ramoni.pro" aria-label="Portfolio">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-FF9F1C?style=for-the-badge&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="https://linkedin.com/in/ramoni" aria-label="LinkedIn">
-    <img src="https://img.shields.io/badge/💼_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:wasiu@ramoni.pro" aria-label="Email">
-    <img src="https://img.shields.io/badge/✉️_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
+
+<a href="mailto:wasiu@ramoni.pro"><img src="https://img.shields.io/badge/Start_a_conversation-wasiu%40ramoni.pro-FF6F61?style=for-the-badge&labelColor=1F2A44" alt="Start a conversation: wasiu@ramoni.pro"></a>
+<a href="https://github.com/waiz3ple?tab=followers"><img src="https://img.shields.io/github/followers/waiz3ple?style=for-the-badge&label=Follow&color=FF9F1C&labelColor=1F2A44" alt="Follow waiz3ple on GitHub"></a>
+
 </div>
 
-## 🛠️ Tech Stack & Expertise
-
-### 💻 Core Frontend
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,redux,tailwind,bootstrap" alt="HTML, CSS, Sass, JavaScript, TypeScript, React, Next.js, Redux, Tailwind CSS, Bootstrap"/>
-</div>
-
-### ♿ Accessibility Specialization
-<div align="center">
-  <img src="https://img.shields.io/badge/WCAG_2.1/2.2-4A90E2?style=for-the-badge&logo=w3c&logoColor=white" alt="WCAG Compliance"/>
-  <img src="https://img.shields.io/badge/ARIA-4A90E2?style=for-the-badge&logo=accessibility&logoColor=white" alt="ARIA"/>
-  <img src="https://img.shields.io/badge/ADA_Compliance-4A90E2?style=for-the-badge&logo=universal-access&logoColor=white" alt="ADA Compliance"/>
-  <img src="https://img.shields.io/badge/Screen_Reader_Testing-4A90E2?style=for-the-badge&logoColor=white" alt="Screen Reader Testing"/>
-</div>
-
-### 🔧 Development Tools
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,figma,photoshop,illustrator,jest,storybook,jenkins" alt="Git, GitHub, Figma, Photoshop, Illustrator, Jest, Storybook, Jenkins"/>
-</div>
-
-### 📚 Advanced Libraries
-<div align="center">
-  <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux Toolkit"/>
-  <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logoColor=white" alt="TanStack Query"/>
-  <img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge&logoColor=white" alt="React Hook Form"/>
-  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logoColor=white" alt="GSAP"/>
-</div>
-
-### 🐍 Currently Learning
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch" alt="Python, TensorFlow, PyTorch"/>
-  <img src="https://img.shields.io/badge/Machine_Learning-FF6F61?style=for-the-badge&logoColor=white" alt="Machine Learning"/>
-</div>
-
-## 🎯 What I Do
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="33%">
-        <h3>🎨 UI/UX Development</h3>
-        <p>Creating pixel-perfect, responsive interfaces that bring designs to life</p>
-        <p><em>Recent achievement: Improved UI performance by 40% at JPMorgan</em></p>
-      </td>
-      <td align="center" width="33%">
-        <h3>♿ Accessibility Champion</h3>
-        <p>Ensuring web applications are usable by everyone, regardless of abilities</p>
-        <p><em>Consistently achieve 100% WCAG AA compliance</em></p>
-      </td>
-      <td align="center" width="33%">
-        <h3>⚡ Performance Optimization</h3>
-        <p>Building fast, efficient web applications that scale</p>
-        <p><em>Reduced bundle sizes by 35% in recent projects</em></p>
-      </td>
-    </tr>
-  </table>
-</div>
-
-## 🚀 Featured Projects
-
-### 🏛️ Bidsday Auction Platform
-<div align="center">
-  <p>Modern auction platform with real-time bidding </p>
-  <p>
-    <img src="https://img.shields.io/badge/Status-In_Development-FF6F61?style=flat-square" alt="In Development"/>
-    <img src="https://img.shields.io/badge/Progress-65%25-88CE02?style=flat-square" alt="Progress"/>
-  </p>
-  <p><em>Technologies: Next.js, TypeScript, Socket.io, WCAG 2.1</em></p>
-  <p>Key Features: Real-time updates, SSR optimized, fully accessible components</p>
-</div>
-
-### 📊 Fractionability
-<div align="center">
-  <a href="https://www.npmjs.com/package/fractionability" aria-label="Fractionability npm package">
-    <img src="https://img.shields.io/npm/v/fractionability?color=FF6F61&style=for-the-badge&logo=npm" alt="npm version"/>
-  </a>
-  <a href="https://github.com/waiz3ple/fractionability" aria-label="Fractionability GitHub repo">
-    <img src="https://img.shields.io/github/stars/waiz3ple/fractionability?style=social" alt="GitHub Stars"/>
-  </a>
-  <p>A TypeScript library for rendering accessible fractions with MathML</p>
-  <p><em>Impact: Used in 150+ educational websites</em></p>
-</div>
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=waiz3ple&show_icons=true&theme=react&hide_border=true&bg_color=1F2A44&title_color=FF9F1C&text_color=FFFFFF&icon_color=88CE02&count_private=true" alt="GitHub stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waiz3ple&layout=compact&theme=react&hide_border=true&bg_color=1F2A44&title_color=FF9F1C&text_color=FFFFFF&icon_color=88CE02&langs_count=8" alt="Top languages"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=waiz3ple&theme=react&hide_border=true&background=1F2A44&stroke=FF6F61&ring=88CE02&fire=FF9F1C&currStreakLabel=FFFFFF" alt="GitHub streak"/>
-</div>
-
-## 💬 Let's Connect
-
-<div align="center">
-  <p>I'm always excited to collaborate on meaningful projects!</p>
-  <a href="https://github.com/waiz3ple?tab=followers" aria-label="Follow on GitHub">
-    <img src="https://img.shields.io/badge/Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Follow"/>
-  </a>
-  <a href="https://linkedin.com/in/ramoni" aria-label="Connect on LinkedIn">
-    <img src="https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-</div>
-
-<div align="center">
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=waiz3ple&label=Profile%20views&color=FF6F61&style=flat" alt="Profile views"/>
-  <br><br>
-  <p><em>"Crafting elegant solutions for an inclusive web, one commit at a time."</em></p>
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6F61&height=100&section=footer" alt="Footer wave"/>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:FF6F61,45:1F2A44,100:0F1626&height=120&section=footer">
+  <img alt="" src="https://capsule-render.vercel.app/api?type=waving&color=0:FFC56B,40:FF9F1C,100:FF6F61&height=120&section=footer">
+</picture>
